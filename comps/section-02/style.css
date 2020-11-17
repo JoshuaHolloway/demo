@@ -5,10 +5,34 @@
   place-items: center;
 }
 
-.container {
-  border: solid 5px black;
+.banner {
+  height: 200px;
+  background: var(--tertiary);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.banner > svg {
+  position: absolute;
 }
 
 .center {
-  
+  border: dotted 3px white;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.center > h5 {
+  width: 50%;
+}
+.center > button {
+  width: 150px;
+  height: 40px;
+  background: none;
+  border: solid var(--text-primary);
+  color: var(--text-primary);
 }

@@ -23,4 +23,5 @@ section {
 
 .container {
   width: 100%;
+  border: dashed 3px gray
 }

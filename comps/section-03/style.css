@@ -1,0 +1,41 @@
+#section-03 {
+  background: var(--quinary);
+  height: 400px;
+  display: grid;
+  place-items: center;
+}
+
+.card-container {
+  height: 300px;
+  background: inherit;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.card {
+  background: var(--senary);
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: center;
+
+  padding: 8% 5%;
+}
+
+.card > div {
+  /* border: dashed blueviolet; */
+}
+
+.card > button {
+  background: none;
+  border: solid black 1px;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+}

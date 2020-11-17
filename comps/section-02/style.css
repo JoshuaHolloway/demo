@@ -18,7 +18,7 @@
 }
 
 .center {
-  border: dotted 3px white;
+  /* border: dotted 3px white; */
   z-index: 1;
   display: flex;
   align-items: center;

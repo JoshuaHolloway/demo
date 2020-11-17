@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+  --primary: #1D2834;
+  --secondary: #232F3E;
+  --tertiary: #FBAE00;
+  --quaternary: #FA9D00;
+
+  --text-primary: white;
+  
+  /* background: var(--secondary); */
+  color: var(--text-primary);
+}
+* { font-family: 'Roboto Mono', monospace; }
+body { margin: 0; }

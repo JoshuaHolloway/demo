@@ -9,13 +9,14 @@
   --text-primary: white;
   
   /* background: var(--secondary); */
-  color: var(--text-primary);
+  /* color: var(--text-primary); */
 }
 * { 
   font-family: 'Roboto Mono', monospace; 
   box-sizing: border-box;
 }
 body { margin: 0; }
+h5 { font-size: 1.2rem; }
 
 section {
   padding: 0 15%;

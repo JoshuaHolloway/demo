@@ -1,0 +1,14 @@
+#section-02 {
+  background: var(--primary);
+  height: 30vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  border: solid 5px black;
+}
+
+.center {
+  
+}

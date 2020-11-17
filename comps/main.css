@@ -11,5 +11,16 @@
   /* background: var(--secondary); */
   color: var(--text-primary);
 }
-* { font-family: 'Roboto Mono', monospace; }
+* { 
+  font-family: 'Roboto Mono', monospace; 
+  box-sizing: border-box;
+}
 body { margin: 0; }
+
+section {
+  padding: 0 15%;
+}
+
+.container {
+  width: 100%;
+}

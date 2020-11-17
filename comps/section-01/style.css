@@ -1,14 +1,8 @@
-* { box-sizing: border-box; }
-
-section {
+#section-01 {
   background: var(--secondary);
   height: 30vh;
   display: grid;
   place-items: center;
-}
-
-#container {
-  /* border: solid 5px black; */
 }
 
 h5 {

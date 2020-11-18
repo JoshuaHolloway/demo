@@ -9,9 +9,8 @@
   --senary: #FFFFFF;
   --septenary: #DFDFDF;
   --octonary: #EDEDED;
-  /* nonary */
+  --nonary: #005276;
   /* denary */
-
 
   --text-primary: white;
   
@@ -43,6 +42,13 @@ section {
 .container {
   width: 100%;
   /* border: dashed 3px gray */
+}
+
+.button-1 {
+  background: none;
+  border: solid white 2px;
+  border-radius: 5px;
+  color: white;
 }
 
 .button-2 {

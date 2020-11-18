@@ -8,7 +8,7 @@
   --quinary: #EAEDF2;
   --senary: #FFFFFF;
   --septenary: #DFDFDF;
-  /* octonary */
+  --octonary: #EDEDED;
   /* nonary */
   /* denary */
 
@@ -23,7 +23,10 @@
   box-sizing: border-box;
 }
 body { margin: 0; }
-h3 { font-size: 1.6rem; }
+h3 { 
+  font-size: 1.8rem;
+  margin: 0;
+}
 h5 { 
   font-size: 1.2rem;
   margin: 0;
@@ -40,4 +43,10 @@ section {
 .container {
   width: 100%;
   /* border: dashed 3px gray */
+}
+
+.button-2 {
+  background: none;
+  border: solid black 1px;
+  border-radius: 5px;
 }
